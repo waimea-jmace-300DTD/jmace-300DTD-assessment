@@ -38,12 +38,12 @@ Replace this text with an explanation of what you will need to consider moving f
 
 ### Health & Safety
 
-it is importent that i do not give medacal advice as people 
+this mean my website will not have any info that could harm animal if done by untrained hands
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+it is impotent that i do not give medical advice as people are untrained and my hurt there animals and i don't know anything about animal heath care 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
-
+i will need to consider that people may miss simtems of sickness 
+d
 ### IMPLICATION NAME HERE
 
 Replace this text with a clear explanation of what the implication means.
