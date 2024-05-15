@@ -1,8 +1,8 @@
 # The Design of a Database-Driven Web Application for NCEA Level 3
 
-Project Name: VetLife page 
+Project Name: **VetLife page** 
 
-Project Author: Jayden Mace
+Project Author: **Jayden Mace**
 
 Assessment Standards: **91902** and **91903**
 
@@ -42,9 +42,9 @@ this mean my website will not have any info that could harm animal if done by un
 
 it is impotent that i do not give medical advice as people are untrained and my hurt there animals and i don't know anything about animal heath care 
 
-i will need to consider that people may miss simtems of sickness 
-d
-### IMPLICATION NAME HERE
+i will need to consider that people may still try to call and ask what they can do or try to look through my website for info on how to save there animals i need to make it clear that the web site is made by someone who has no medical experience and that there will be no info no what to do to a animal just info on the vets and where the vets are and how to contact them  
+
+### End-User
 
 Replace this text with a clear explanation of what the implication means.
 
@@ -83,47 +83,65 @@ Replace this text with an explanation of what you will need to consider moving f
 
 
 -------------------------------------------------
+## Final System Design
 
-## Design, Development and Testing Log
+### Database Structure
 
-### DATE HERE
+Place a image here that shows the *final design* of your database: tables, fields and relationships.
 
-Replace this test with what you are working on
+### User Interface Design
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Place images here that show your *final design* of your UI: layout, colours, etc.
 
-### DATE HERE
 
-Replace this test with what you are working on
+-------------------------------------------------
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+## Completed System
 
-### DATE HERE
+### Database Structure
 
-Replace this test with what you are working on
+Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### User Interface Design
 
-### DATE HERE
+Place screenshots and notes here that show your *actual system UI* in action.
 
-Replace this test with what you are working on
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+-------------------------------------------------
 
-### DATE HERE
+## Review and Evaluation
 
-Replace this test with what you are working on
+### Meeting the Needs of the Users
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
 
-### DATE HERE
+### Meeting the System Requirements
 
-Replace this test with what you are working on
+Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+### Review of IMPLICATION NAME HERE
 
-### DATE HERE
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
 
-Replace this test with what you are working on
+### Review of IMPLICATION NAME HERE
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of IMPLICATION NAME HERE
+
+Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+### Review of UX PRINCIPLE NAME HERE
+
+Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+
+
+-------------------------------------------------

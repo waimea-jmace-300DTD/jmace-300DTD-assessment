@@ -8,7 +8,8 @@ its a databace driven web app the allows users to:
 - hire a vet 
 - look for help and a place contact people 
 
-![VETLIFE logo](images/logo.svg)
 
-- [inial design](Design.md)
-- []
+The following documents support this project:
+
+- [Design & Review](Design.md)
+- [Development & Testing](Development.md)
