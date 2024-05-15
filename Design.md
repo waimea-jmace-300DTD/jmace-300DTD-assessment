@@ -21,7 +21,7 @@ it must have a way to contact him for non emergencies and a phone number to call
 
 ### Proposed Solution
 
-Im going to make a website for the richmond VetLife it will allow customers see when there fav vet is on and book his time see what Expertise the vets there have and what they can do at the clinic with a map of where it is and how to get there    
+Im going to make a website for the richmond VetLife it will allow customers see when there fav vet is on and book his time see, what Expertise the vets there have and what they can do at the clinic with a map of where it is   
 
 
 -------------------------------------------------
@@ -30,11 +30,11 @@ Im going to make a website for the richmond VetLife it will allow customers see 
 
 ### Usability
 
-Replace this text with a clear explanation of what the implication means.
+Usability means that it is easy too use as most of the people using the site are probably not the most tech savey 
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+if the users of the website can not use it because it is too hard to use then it is useless so it has to be easy to understand 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
+I will need to think about making it simple maybe having simbles that are easily identifiable  
 
 ### Health & Safety
 
@@ -46,11 +46,10 @@ i will need to consider that people may still try to call and ask what they can 
 
 ### End-User
 
-Replace this text with a clear explanation of what the implication means.
+my end users will be my dad and the people he works with  
 
-Replace this text with an explanation of why the implication is relevant to this particular project.
+if I do not make the website design around that so all people can use it it will be useless 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this implication.
 
 
 -------------------------------------------------
