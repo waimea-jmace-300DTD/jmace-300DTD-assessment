@@ -50,35 +50,36 @@ my end users will be my dad and the people he works with
 
 if I do not make the website design around that so all people can use it it will be useless 
 
-
+because my dads costumers are mostly farmers not computer science majors I need to make it easy to use for people the use out of data technology   
 
 -------------------------------------------------
 
 ## Relevant User Experience (UX) Principles
 
-### UX PRINCIPLE NAME HERE
+### Consistency
 
-Replace this text with a clear explanation of what the UX design principle means.
+the use of Consistent colours, symbolise and layout   
 
-Replace this text with an explanation of why the principle is relevant to this particular project.
+it is important that when people come to the website that they are not confused where things are so I need to make the layout the same   
+
+I will need to consider that the people using my website may get confused if the UI changes on every page so it has to stay consistent 
+
+### Accessibility
+
+it means that the people using the website will only be able too see and interacted with the things they are allowed to and allows admins the change the time and dates that people are on   
+
+this is reinvent because it allows for the changing of when people are on with out others messing with the webpage and times
+
+I will need to have accounts for the workers and all the other users can just be guests i need to make sure that no one that is not signed in can see or change anything there not meant to  
+
+### Hierarchy
+
+that there will be a clear difference in what the boss of VetLife the workers and the customers see and interact with 
+
+if the workers can change thing they may get rid of things they do not want to do or mess with other peoples time and if the customers can they might too 
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
 
-### UX PRINCIPLE NAME HERE
-
-Replace this text with a clear explanation of what the UX design principle means.
-
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
-
-### UX PRINCIPLE NAME HERE
-
-Replace this text with a clear explanation of what the UX design principle means.
-
-Replace this text with an explanation of why the principle is relevant to this particular project.
-
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
 
 
 -------------------------------------------------
