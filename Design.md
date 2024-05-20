@@ -79,7 +79,7 @@ that there will be a clear difference in what the boss of VetLife the workers an
 if the workers can change thing they may get rid of things they do not want to do or mess with other peoples time and if the customers can they might too 
 
 Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
-
+i will need to have certen resorses available too the admins only and make the pages check if the user is an admin so people don't just go to them ver the URL    
 
 
 -------------------------------------------------
