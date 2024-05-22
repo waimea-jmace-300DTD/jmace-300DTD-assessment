@@ -17,7 +17,7 @@ my dad is a vet and if his clients want to talk to him they must call him this i
 
 ### End-User Requirements
 
-it must have a way to contact him for non emergencies and a phone number to call him and a map of where his place of work is with som info about what some of the people are good at it going to be styled in there colours and have lots of photos of animals its only going to be for the richmond center it needs manager access so the manger can change when people are on it will have forms so you can see when you fav vet is on and book his time and you will be able to cancel it  
+It must have a way to contact the vet clinic for non emergencies and a phone number to call him and a map of where his place of work is with some info about what some of the people are good at. its going to be styled in there colours and have lots of photos of animals its only going to be for the richmond center it needs manager access so the manger can change when people are on it will have forms so you can see when you fav vet is on and book his time and you will be able to cancel it  
 
 ### Proposed Solution
 
