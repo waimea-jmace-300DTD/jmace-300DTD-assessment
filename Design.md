@@ -17,11 +17,23 @@ my dad is a vet and if his clients want to talk to him they must call him this i
 
 ### End-User Requirements
 
-It must have a way to contact the vet clinic for non emergencies and a phone number to call him and a map of where his place of work is with some info about what some of the people are good at. its going to be styled in there colours and have lots of photos of animals its only going to be for the richmond center it needs manager access so the manger can change when people are on it will have forms so you can see when you fav vet is on and book his time and you will be able to cancel it  
+ VetLife needs a website that both VetLife costumers and the employees can use
+the employees need a way to see when there on at home and what time they need to be places they will be going out to see people and helping people at the center 
+
+customers or VetLife are people with sick animals or people needing help with the health and wellbeing of there animals during a significant proses they may be worried or scared for their animal friend.
+the customers will want calming people and imagers on the website that instils a sense of trust and confidence in the worker of VetLife. They also would want a way to get vets to their homes quickly and effectively with easy to understand info readily available     
+
+
+managers need a wey to effectively communicate to their employees about what their doing where to go that day with lists of what people have done and where they are going next   
+
+
+
+
+ info about what the employees are good at. its going to be styled in there colours and have lots of photos of animals it will have forms so you can see when you fav vet is on and book his time and you will be able to cancel it. for the employees it needs different manager and employee  the manager need access so the they can change when people are on it will have forms so the costumers can see when you fav vet is on and book his time and you will be able to cancel it   
 
 ### Proposed Solution
 
-Im going to make a website for the richmond VetLife it will allow customers see when there fav vet is on and book his time see, what Expertise the vets there have and what they can do at the clinic with a map of where it is   
+Im going to make a website for the Richmond VetLife it will allow customers see when there fav vet is on and book his time see, what Expertise the vets there have and what they can do at the clinic with a map of where it is. one of the main fechers will be info about what the employees are good at and being able to book the right person for the job    
 
 
 -------------------------------------------------
