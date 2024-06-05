@@ -35,9 +35,9 @@ Im going to make a website for the Richmond VetLife it will allow customers
 - see what Expertise the vets there have  
 - what they can do at the clinic 
 - a map of where it is. one of the main fechers will be info about what the employees are good at and being able to book the right person for the job. 
- the manager will have different access to everyone so the they can change when people are on 
- for the employees it will have forms of time that costumers can see 
- employees will be able to see where to go will but not the geasts as having people addresses for everyone to see will be bad   
+ the manager will have different access to everyone so the they can change when people are on. 
+ for the employees it will have forms of times that their on, that costumers can also see. 
+ employees will be able to see where to go and who they will be helping but not the geasts as having peoples names and addresses for everyone to see will be bad   
 
 
 -------------------------------------------------
@@ -50,7 +50,7 @@ Usability means that it is easy too use and quick if not instantly learnable  as
 
 if the users of the website can not use it because it is too hard to use then it is useless so it has to be easy to understand and quick learn
 
-I will need to think about thing like neillsen heuristics who is using my web  
+I will need to think about thing like neillsen heuristics, who is using my webpage and what type of things they are looking for.  
 
 ### Health & Safety
 
@@ -105,7 +105,7 @@ i will need to have certen resorses available too the admins only and make the p
 
 ### Database Structure
 
-Place a image here that shows the *final design* of your database: tables, fields and relationships.
+![Alt text](images/image.png)
 
 ### User Interface Design
 
