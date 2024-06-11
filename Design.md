@@ -66,7 +66,7 @@ my end users will be my dad and the people he works with
 
 if I do not make the website design around that so all people can use it it will be useless 
 
-because my dads costumers are mostly farmers not computer science majors I need to make it easy to use for people the use out of data technology   
+because my dads costumers are mostly farmers not computer science majors I need to make it easy to use for people the use out of data technology also that some people may use my website when they have an hert animal so they need esy to find info so they can get the info they need.  
 
 -------------------------------------------------
 
@@ -104,12 +104,12 @@ i will need to have certen resorses available too the admins only and make the p
 ## Final System Design
 
 ### Database Structure
+![Alt text](images/image5.png)
 
-![Alt text](images/image.png)
 
 ### User Interface Design
 
-Place images here that show your *final design* of your UI: layout, colours, etc.
+![Alt text](images/image.png)
 
 
 -------------------------------------------------
