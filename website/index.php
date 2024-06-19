@@ -8,7 +8,7 @@ require_once 'lib/router.php';
 
 //-------------------------------------------------------------
 // Site Configuration
-const SITE_NAME  = 'PHP Routing with HTMX';
+const SITE_NAME  = 'VetLife';
 const SITE_OWNER = 'Waimea College';
 
 

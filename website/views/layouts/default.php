@@ -1,7 +1,7 @@
 <!-- Default page layout with header / footer / nav -->
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en"  data-theme="light">
 
     <?php require '_head.php'; ?>
 
