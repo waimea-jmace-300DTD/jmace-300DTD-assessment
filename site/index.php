@@ -22,6 +22,7 @@ $router = new Router(['debug' => true]);
 
 $router->route(GET, PAGE, '/',      'pages/home.php');
 $router->route(GET, PAGE, '/about', 'pages/about.php');
+$router->route(GET, PAGE, '/employees', 'pages/employees.php');
 
 
 //-------------------------------------------------------------
