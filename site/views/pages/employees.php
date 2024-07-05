@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 // require_once './lib/_session.php';
 // require_once './lib/_functions.php';
@@ -34,6 +34,9 @@
     
     <label>Username</label>
     <input type="text" name="username" required>
+
+    <label>description</label>
+    <input type="text" name="description">
 
     <label>Password</label>
     <input type="password" name="pass" required>
