@@ -3,6 +3,8 @@
 //-------------------------------------------------------------
 // Libraries
 require_once 'lib/debug.php';
+require_once 'lib/db.php';
+require_once 'lib/session.php';
 require_once 'lib/router.php';
 
 
@@ -26,7 +28,9 @@ $router->route(GET, PAGE, '/about', 'pages/about.php');
 
 $router->route(GET, PAGE, '/employees', 'pages/employees.php');
 
-$router->route(GET, PAGE, '/process-signup', 'pages/process-signup.php');
+$router->route(POST, HTMX, '/process-signup', 'actions/process-signup.php');
+
+$router->route(POST, HTMX, '/process-booking', 'actions/process-booking.php');
 
 
 

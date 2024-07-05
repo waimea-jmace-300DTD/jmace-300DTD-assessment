@@ -1,9 +1,6 @@
 
 <?php
 
-require_once './lib/_session.php';
-require_once './lib/_functions.php';
-
 consoleLog($_POST, 'Form Data');
 
 // Get the form data
@@ -19,8 +16,8 @@ consoleLog($hash, 'Hashed Password');
 
 $db = connectToDB();
 // Add the user data
-$query = 'INSERT INTO users (forename, surname, username, hash) VALUES (?, ?, ?, ?, ?)';
+$query = 'INSERT INTO users (forename, surname, username, hash, description) VALUES (?, ?, ?, ?, ?)';
 $stmt = $db->prepare($query);
-$stmt->execute([$fore, $sur, $user, $hash]);
+$stmt->execute([$fore, $sur, $user, $hash, $desc]);
 
 echo '<h2> Account created! </h2>';

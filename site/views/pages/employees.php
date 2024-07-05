@@ -25,7 +25,7 @@
 ?>
 
 
-<form method="POST" action="process-signup.php" id="form">
+<form hx-post="process-signup" id="form">
     <label>Forename</label>
     <input type="text" name="forename" required>
 

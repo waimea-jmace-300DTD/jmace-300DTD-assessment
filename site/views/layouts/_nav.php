@@ -9,6 +9,7 @@
             <li><a href="/">Home</a>
             <li><a href="/about">About</a>
             <li><a href="/employees">employees</a>
+            <li><a href="/booking">book</a>
         </ul>
     </menu>
 
