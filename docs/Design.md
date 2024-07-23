@@ -110,7 +110,7 @@ i will need to have certen resorses available too the admins only and make the p
 ### User Interface Design
 
 ![Alt text](images/image.png)
-
+![Alt text](<Screenshot 2024-05-21 122030.png>) ![Alt text](<Screenshot 2024-06-06 104137.png>)
 
 -------------------------------------------------
 

@@ -1,8 +1,5 @@
 
 
-]
-
-
 <form hx-post="process-booking" id="form">
     <label>name</label>
     <input type="text" name="name" required>

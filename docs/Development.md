@@ -51,13 +51,13 @@ and added another page for confirmation just for the manager
 
 ### DATE HERE
 
-Replace this test with what you are working on
+I showed 1 of my end user the pages I had done he suggested I put a map on it so it is easy to find where VetLife is in richmond 
 
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
+in response to this I added a map on the 23/07/2024 
 
-> Replace this text with any user feedback / comments
+![Alt text](images/image6.png)
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+
 
 ### DATE HERE
 
