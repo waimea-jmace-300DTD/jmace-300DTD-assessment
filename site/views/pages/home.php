@@ -21,3 +21,17 @@ allowfullscreen=""
 loading="lazy" 
 referrerpolicy="no-referrer-when-downgrade">
 </iframe>
+
+
+
+<p>P.O.Box 3509, Richmond 79 Gladstone Road, Richmond</p>
+
+<p>(03) 544 5566 (incl. emergency A/H)</p>
+
+<p>richmond@vetlife.co.nz</p>
+<h6>Opening Hours</h6>
+
+<p>Monday – Friday: 8am – 5.30pm</p>
+<p>Saturday: 9am – 4pm</p>
+<p>Sunday: 10am – 2pm</p>
+<p>Public Holidays: Hours may vary</p>

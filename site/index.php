@@ -41,6 +41,8 @@ $router->route(GET, PAGE, '/login', 'pages/form-login.php');
 
 $router->route(POST, HTMX, '/process-login', 'actions/process-login.php');
 
+$router->route(GET, PAGE, '/logout', 'actions/logout.php');
+
 
 //-------------------------------------------------------------
 // Generate the required view

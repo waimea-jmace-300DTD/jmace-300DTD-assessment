@@ -1,4 +1,5 @@
 
+<h6>You can only login if an account has been made for you or an employee of VetLife Richmond</h6> 
 
 <form hx-post="process-login" id="form">
 

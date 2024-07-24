@@ -14,9 +14,12 @@ echo "<ul>";
 foreach ($users as $user) {
 
     echo "<li>{$user['username']}   -   {$user['forename']}";
+    if ($isAdmin){
+        echo "<a href='delete-user.php?id={$user['id']}'>X</a>";
+        echo "</li>";
 
-    echo "<a href='delete-user.php?id={$user['id']}'>X</a>";
-    echo "</li>";
+    }
+
 }
 echo "</ul>";
 

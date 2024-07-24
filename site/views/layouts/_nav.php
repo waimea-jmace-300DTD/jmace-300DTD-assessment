@@ -10,7 +10,7 @@
             <li><a href="/about">About</a>
             <li><a href="/employees">employees</a>
             <li><a href="/booking">book</a>
-            <li><a href="/login">login</a>
+
         </ul>
     </menu>
 

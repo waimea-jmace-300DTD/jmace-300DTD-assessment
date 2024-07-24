@@ -27,17 +27,20 @@ if ($userData) {
         $_SESSION['user']['surname'] = $userData['surname'];
 
         // Redirect to the home page
-        header('<a href="/">Home</a>');
+
     }
     else {
-        echo 'Invalid password';
+        echo 'Invalid password or username  ';
+        echo '<a href="/">Home</a>';
+
     }
 }
 else {
-    echo 'Invalid username';
+    echo 'Invalid password or username';
+    echo '<a href="/">Home</a>';
+
 }
 
-echo '<a href="/">Home</a>';
-
+header('<a href="/">Home</a>');
 
 
