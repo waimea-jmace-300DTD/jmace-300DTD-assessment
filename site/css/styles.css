@@ -155,6 +155,7 @@ article {
 
     opacity: 0;                 /* initially transparent */
     transition: all 500ms;
+    
 }
 
 /* Animate the shade's opacity when menu shown */
@@ -185,4 +186,20 @@ article {
     #main-nav.show::before {
         opacity: 0;                     /* make sure overlay is off */
     }
+}
+
+
+
+#displayName{
+    display: flex;
+    align-content:end;
+}
+
+@media screen and (min-width: 850px) {
+    
+    #displayName{
+        display: flex;
+        align-content:center;
+    }
+
 }

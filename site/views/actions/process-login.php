@@ -2,7 +2,7 @@
 <?php
 
 
-consoleLog($_POST, 'Form Data');
+// consoleLog($_POST, 'Form Data');
 
 // Get the form data
 $user = $_POST['user'];
@@ -15,7 +15,7 @@ $stmt = $db->prepare($query);
 $stmt->execute([$user]);
 $userData = $stmt->fetch();
 
-consoleLog($userData, 'DB Data');
+// consoleLog($userData, 'DB Data');
 
 if ($userData) {
     if (password_verify($pass, $userData['hash'])) {
@@ -27,6 +27,8 @@ if ($userData) {
         $_SESSION['user']['surname'] = $userData['surname'];
 
         // Redirect to the home page
+        
+        header('hx-redirect: ' . SITE_BASE);
 
     }
     else {
@@ -41,6 +43,5 @@ else {
 
 }
 
-header('<a href="/">Home</a>');
 
 

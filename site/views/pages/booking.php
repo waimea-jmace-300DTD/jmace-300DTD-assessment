@@ -11,7 +11,10 @@
     <input type="text" name="description">
 
     <label>time and date</label>
-    <input type="datetime" name="datetime" required>
+    <input type="datetime-local" name="datetime" required>
+    
+    <label>Vet</label>
+    <input type="text" name="vet" >
 
     <input type="submit" value="submit">
     

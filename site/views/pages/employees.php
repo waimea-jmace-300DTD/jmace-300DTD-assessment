@@ -9,7 +9,7 @@ $stmt->execute();
 $users = $stmt->fetchAll();
 
 
-echo "<h1>Users</h1>";
+echo "<h1>employees</h1>";
 echo "<ul>";
 foreach ($users as $user) {
 
@@ -17,17 +17,20 @@ foreach ($users as $user) {
     if ($isAdmin){
         echo "<a href='delete-user.php?id={$user['id']}'>X</a>";
         echo "</li>";
-
+   
     }
 
 }
 echo "</ul>";
 
+
+if ($isAdmin){
+    
+ echo   '<a href="/new-employees">New Employee</a>';
+
+}
+
 ?>
-
-<a href="/new-employees">New Employee</a>
-
-
 
 
 

@@ -1,9 +1,5 @@
 <?php
 
-require_once './lib/_session.php';
-require_once './lib/_functions.php';
-
-
 
 
 echo '<pre>';
@@ -20,5 +16,6 @@ $sql = 'DELETE FROM users WHERE id=?' ;
 $stmt = $db->prepare($sql);
 $stmt->execute([$userID]);
 
-header('location: list-users.php?id='.$userID);
+header('hx-redirect: ' . SITE_BASE);
+
 ?>
