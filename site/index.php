@@ -44,6 +44,8 @@ $router->route(GET, PAGE, '/logout', 'actions/process-logout.php');
 
 $router->route(POST, HTMX, '/process-signup', 'actions/process-signup.php');
 
+$router->route(POST, HTMX, '/delete-user', 'actions/delete-user.php');
+
 
 //-------------------------------------------------------------
 // Generate the required view

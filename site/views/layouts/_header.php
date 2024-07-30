@@ -5,11 +5,9 @@
     <a href="/"><?= SITE_NAME ?></a>
 
 
-    <?php require '_nav.php'; ?>
 
-        <section id="displayName">
+    <section id="displayName">
         <?php
-
 
 
             $loggedIn = $_SESSION['user']['loggedIn'] ?? false;
@@ -24,8 +22,13 @@
             }
 
             echo '</p>';
-            }
-        ?>
+            }        
+
+
+            
+         require '_nav.php'; ?>
+
+
 
         </section>
 

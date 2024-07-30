@@ -11,14 +11,13 @@ $date = $_POST['datetime'];
 $vet = $_POST['vet'];
 
 // Hash the password
-$hash = password_hash($add, PASSWORD_DEFAULT);
-consoleLog($hash, 'Hashed Password');
+
 
 $db = connectToDB();
 // Add the user data
-$query = 'INSERT INTO booking (name, address, description, date, prevet) VALUES (?, ?, ?, ?, ?)';
+$query = 'INSERT INTO bookings (name, address, description, date, pref_vet) VALUES (?, ?, ?, ?, ?)';
 $stmt = $db->prepare($query);
-$stmt->execute([$name, $hash, $desc, $date, $vet]);
+$stmt->execute([$name, $add, $desc, $date, $vet]);
 
 echo '<h2> your booked!   </h2>';
 echo '<a href="/">Home</a>';
