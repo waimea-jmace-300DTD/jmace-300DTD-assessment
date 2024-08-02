@@ -46,6 +46,10 @@ $router->route(POST, HTMX, '/process-signup', 'actions/process-signup.php');
 
 $router->route(POST, HTMX, '/delete-user', 'actions/delete-user.php');
 
+$router->route(GET, PAGE, '/jobs',      'pages/jobs.php');
+
+$router->route(POST, HTMX, '/finish-booking', 'actions/finish-booking.php');
+
 
 //-------------------------------------------------------------
 // Generate the required view
