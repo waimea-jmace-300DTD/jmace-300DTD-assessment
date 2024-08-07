@@ -50,6 +50,7 @@ $router->route(GET, PAGE, '/jobs',      'pages/jobs.php');
 
 $router->route(POST, HTMX, '/finish-booking', 'actions/finish-booking.php');
 
+$router->route(GET, PAGE, '/give-jobs',      'pages/give-jobs.php');
 
 //-------------------------------------------------------------
 // Generate the required view

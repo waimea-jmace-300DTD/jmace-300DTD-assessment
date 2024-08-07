@@ -1,78 +1,69 @@
 <?php 
 
-
-$db = connectToDB();
-
-
-$query = 'SELECT * FROM bookings';
-$stmt = $db->prepare($query);
-$stmt->execute();
-$bookings = $stmt->fetchAll();
+//showing jobs 
 
 
-echo "<h1>Booking</h1>";
-echo "<dl>";
-foreach ($bookings as $booking) {
 
-    echo "<dt>Request #{$booking['id']} </dt>";
-    echo "<dd>";
-    echo "{$booking['address']}   -   {$booking['name']}";
-    echo "  -  {$booking['description']}";
-    echo "  -  {$booking['pref_vet']}";
-    echo "</dd>";
+$loggedIn = $_SESSION['user']['loggedIn'] ?? false;
+$isAdmin = $_SESSION['user']['manager'] ?? false;
+$vetID = $_SESSION['user']['id'];
+
+
+//displaying all the jobs being done for the manager
+if($isAdmin){
+
+
+    $db = connectToDB();
+
+    $query = 'SELECT * FROM bookings';
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $bookings = $stmt->fetchAll();
+    
+    
+    
+    echo "<h1>Everyone's Jobs</h1>";
+    echo "<dl>";
+    foreach ($bookings as $booking) {
+    
+        echo "<dt>Request #{$booking['id']} </dt>";
+        echo "<dd>";
+        echo "{$booking['address']}   -   {$booking['name']}";
+        echo "  -  {$booking['description']}";
+        echo "</dd>";
+    }
+    echo "</dl>";
+    
+
+
+    echo '<p><a href="/give-jobs">Give Jobs</a></p>';
+
 }
-echo "</dl>";
+
+//displaying all the jobs for each vet yet too be done
+
+else{
+
+    $db = connectToDB();
+
+    $query = 'SELECT * FROM bookings WHERE vet_id= vetID';
+    $stmt = $db->prepare($query);
+    $stmt->execute();
+    $bookings = $stmt->fetchAll();
 
 
 
-// selection form 
-
-$query = 'SELECT * FROM users 
-            WHERE specialities IS NOT NULL
-            ORDER BY surname ASC';
-$stmt = $db->prepare($query);
-$stmt->execute();
-$vets = $stmt->fetchAll();
-
-?>
-<form hx-post="finish-booking" id="form">
-    <label>Request #</label>
-
-    <select name="jobID" required>
-
-<?php
-
+        echo "<h1>Your Jobs</h1>";
+        echo "<dl>";
     foreach ($bookings as $booking) {
 
-        echo '<option>';
-        echo   "{$booking['id']}";
-        echo '</option>';
+        echo "<dt>Request #{$booking['id']} </dt>";
+        echo "<dd>";
+        echo "{$booking['address']}   -   {$booking['name']}";
+        echo "  -  {$booking['description']}";
+        echo "</dd>";
     }
-
-?>
-    </select>
-
-    <label>Vet</label>
-    <select name="vet" required>
-
-<?php
-
-    foreach ($vets as $vet) {
-
-        echo '<option value="  ' . $vet['id'] . '">';
-        echo   "{$vet['username']}";
-        echo '</option>';
-    }
-
-?>
-    </select>
-
-    <input type="submit" value="Allocate Vet to Job">
-    
-</form>
-   
+    echo "</dl>";
 
 
-
-
-
+}

@@ -25,6 +25,7 @@ if ($userData) {
         $_SESSION['user']['manager'] = $userData['manager'];
         $_SESSION['user']['forename'] = $userData['forename'];
         $_SESSION['user']['surname'] = $userData['surname'];
+        $_SESSION['user']['id'] = $userData['id'];
 
         // Redirect to the home page
         

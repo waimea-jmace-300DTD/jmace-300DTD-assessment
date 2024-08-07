@@ -17,7 +17,7 @@
                     $isAdmin = $_SESSION['user']['manager'] ?? false;
 
 
-                    if ($isAdmin) {
+                    if ($loggedIn) {
                     echo '<p><a href="/jobs">Jobs</a></p>';
                     }
 
