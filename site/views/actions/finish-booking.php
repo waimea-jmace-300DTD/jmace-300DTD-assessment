@@ -16,4 +16,4 @@ $stmt->execute([$vet_id, $job_id]);
 
 echo '<h2> You are booked!   </h2>';
 echo '<a href="/">Home </a>';
-echo'<a href="/jobs">another?</a>';
+echo'<a href="/give-jobs">another?</a>';

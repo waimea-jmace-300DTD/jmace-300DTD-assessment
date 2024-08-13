@@ -4,7 +4,7 @@
 
         <h1>Simple PHP Routing System with HTMX Support</h1>
 
-        <p>Find this project on <a href="https://github.com/waimea-dt/php-routing">GitHub</a><p>
+
 
     </article>
     

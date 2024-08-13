@@ -10,7 +10,7 @@ $stmt->execute();
 $bookings = $stmt->fetchAll();
 
 
-echo "<h1>Booking</h1>";
+echo "<h1>New Booking</h1>";
 echo "<dl>";
 foreach ($bookings as $booking) {
 
@@ -18,7 +18,8 @@ foreach ($bookings as $booking) {
     echo "<dd>";
     echo "{$booking['address']}   -   {$booking['name']}";
     echo "  -  {$booking['description']}";
-    echo "  -  {$booking['pref_vet']}";
+    echo "  -  wanted vet : {$booking['pref_vet']}";
+    echo "  -  given vet id: {$booking['vet_id']}";
     echo "</dd>";
 }
 echo "</dl>";
@@ -60,7 +61,7 @@ $vets = $stmt->fetchAll();
     foreach ($vets as $vet) {
 
         echo '<option value="  ' . $vet['id'] . '">';
-        echo   "{$vet['username']}";
+        echo   "{$vet['username']} : {$vet['id']}";
         echo '</option>';
     }
 

@@ -46,7 +46,7 @@ else{
 
     $db = connectToDB();
 
-    $query = 'SELECT * FROM bookings WHERE vet_id= vetID';
+    $query = 'SELECT * FROM bookings WHERE vet_id = $vetID';
     $stmt = $db->prepare($query);
     $stmt->execute();
     $bookings = $stmt->fetchAll();
