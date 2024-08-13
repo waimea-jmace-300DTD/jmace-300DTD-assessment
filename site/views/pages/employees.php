@@ -13,9 +13,18 @@ echo "<h1>employees</h1>";
 echo "<ul>";
 foreach ($users as $user) {
 
-    echo '<a href="/jobs" hx-post = "jobs" id="clicked-vet" >' .  "<li>{$user['username']}   -   {$user['forename']} : " .'</a>';
+    echo  "<li>{$user['username']}   -   {$user['forename']}";
     if ($isAdmin){
-        echo '<a href="/delete-user">X</a>';
+        ?>
+        <button
+            hx-delete="/user/<?= $user['username'] ?>"
+            hx-target="#request-result"
+            hx-confirm="Really delete this user?"
+            class="danger"
+            id = "delete-user"
+        >X</button>
+    
+        <?php
         echo "</li>";
    
     }

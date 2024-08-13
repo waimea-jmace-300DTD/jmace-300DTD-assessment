@@ -2,7 +2,14 @@
 
     <article>
 
-        <h1>Simple PHP Routing System with HTMX Support</h1>
+        <h1>Our team of passionate veterinarians and support staff </h1> 
+
+        <p> Our employees are trusted advisors to our clients, offering value-added advice in such areas as ways to lift production parameters, 
+            innovative medicines, therapies and contemporary products, as well as reassurance, honesty and genuine care for their animals. 
+            We offer great career opportunities for talented people and pride ourselves on being part of the communities in which we operate.  
+            Get in touch if you would like to join our team.
+        </p>
+       
 
 
 
@@ -10,13 +17,16 @@
     
     <article>
 
-        <p>This is a simple routing system using PHP as the back-end. It provides the following features:
+        <h1>Some of the expertise our Vets offer are</h1>
 
         <ul>
-            <li><strong>Routing</strong> via URLs that can include parameters and values</li>
-            <li><strong>CRUD</strong> operations via HTTP request methods: POST, GET, PUT, DELETE</li>
-            <li><strong>Templating</strong> with layouts, partials, etc.</li>
-            <li><a href="https://htmx.org/"><strong>HTMX</strong></a> component support</li>
+            <li><strong>Pets</strong>Common house hold Animals such as cats and dogs</li>
+            <li><strong>Dairy</strong>farm animals such as milking cows</li>
+            <li><strong>Working Dogs</strong> </li>
+            <li><strong>Equine Animals</strong> such as horses or dear </li>
+            <li><strong>Sheep and Cows</strong> with layouts, partials, etc.</li>
+
+ 
         </ul>
 
     </article>

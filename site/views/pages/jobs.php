@@ -29,6 +29,7 @@ if($isAdmin){
         echo "<dt>Request #{$booking['id']} </dt>";
         echo "<dd>";
         echo "{$booking['address']}   -   {$booking['name']}";
+        echo "  -  {$booking['date']}";
         echo "  -  {$booking['description']}";
         echo "</dd>";
     }
@@ -46,7 +47,7 @@ else{
 
     $db = connectToDB();
 
-    $query = 'SELECT * FROM bookings WHERE vet_id = $vetID';
+    $query = 'SELECT * FROM bookings WHERE vet_id =' . "$vetID";
     $stmt = $db->prepare($query);
     $stmt->execute();
     $bookings = $stmt->fetchAll();
