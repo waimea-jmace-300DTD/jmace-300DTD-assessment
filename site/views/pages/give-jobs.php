@@ -4,7 +4,8 @@
 $db = connectToDB();
 
 
-$query = 'SELECT * FROM bookings';
+$query = 'SELECT * FROM bookings
+          WHERE done IS NULL';
 $stmt = $db->prepare($query);
 $stmt->execute();
 $bookings = $stmt->fetchAll();

@@ -44,7 +44,9 @@ $router->route(GET, PAGE, '/logout', 'actions/process-logout.php');
 
 $router->route(POST, HTMX, '/process-signup', 'actions/process-signup.php');
 
-$router->route(POST, HTMX, '/delete-user', 'actions/delete-user.php');
+$router->route(DELETE, HTMX, '/user/$id', 'actions/delete-user.php');
+
+$router->route(PUT, HTMX, '/done/$id', 'actions/job-done.php');
 
 $router->route(GET, PAGE, '/jobs',      'pages/jobs.php');
 

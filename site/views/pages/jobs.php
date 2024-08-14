@@ -15,7 +15,8 @@ if($isAdmin){
 
     $db = connectToDB();
 
-    $query = 'SELECT * FROM bookings';
+    $query = 'SELECT * FROM bookings
+              WHERE done IS NULL ';
     $stmt = $db->prepare($query);
     $stmt->execute();
     $bookings = $stmt->fetchAll();
@@ -32,6 +33,8 @@ if($isAdmin){
         echo "  -  {$booking['date']}";
         echo "  -  {$booking['description']}";
         echo "</dd>";
+        echo" ";
+        echo" ";
     }
     echo "</dl>";
     
@@ -47,7 +50,9 @@ else{
 
     $db = connectToDB();
 
-    $query = 'SELECT * FROM bookings WHERE vet_id =' . "$vetID";
+    $query = 'SELECT * FROM bookings 
+    WHERE done IS NULL 
+    AND vet_id =' . "$vetID";
     $stmt = $db->prepare($query);
     $stmt->execute();
     $bookings = $stmt->fetchAll();
@@ -60,9 +65,21 @@ else{
 
         echo "<dt>Request #{$booking['id']} </dt>";
         echo "<dd>";
-        echo "{$booking['address']}   -   {$booking['name']}";
+        echo "<strong>{$booking['address']}</strong>   -   {$booking['name']}";
+        echo "  -  <strong>{$booking['date']}</strong>";
         echo "  -  {$booking['description']}";
         echo "</dd>";
+        echo" ";
+        echo" ";
+        ?>
+        <button
+        hx-put="/done/<?= $booking['id']  ?>"
+        hx-confirm="Are you done?"
+        class="danger"
+        >Done</button>
+    
+        <?php
+
     }
     echo "</dl>";
 

@@ -17,11 +17,9 @@ foreach ($users as $user) {
     if ($isAdmin){
         ?>
         <button
-            hx-delete="/user/<?= $user['username'] ?>"
-            hx-target="#request-result"
+            hx-delete="/user/<?= $user['id'] ?>"
             hx-confirm="Really delete this user?"
             class="danger"
-            id = "delete-user"
         >X</button>
     
         <?php

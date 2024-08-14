@@ -20,11 +20,11 @@
         <h1>Some of the expertise our Vets offer are</h1>
 
         <ul>
-            <li><strong>Pets</strong>Common house hold Animals such as cats and dogs</li>
-            <li><strong>Dairy</strong>farm animals such as milking cows</li>
-            <li><strong>Working Dogs</strong> </li>
-            <li><strong>Equine Animals</strong> such as horses or dear </li>
-            <li><strong>Sheep and Cows</strong> with layouts, partials, etc.</li>
+            <li><strong>Pets </strong>Common house hold Animals such as cats and dogs</li>
+            <li><strong>Dairy </strong>Farm animals such as milking cows</li>
+            <li><strong>Working Dogs </strong>Farm helping dogs</li>
+            <li><strong>Equine Animals </strong> Such as horses or dear </li>
+            <li><strong>Sheep and Cows </strong> With layouts, partials, etc.</li>
 
  
         </ul>
