@@ -21,22 +21,42 @@ if($isAdmin){
     $stmt->execute();
     $bookings = $stmt->fetchAll();
     
-    
+//displaying all the jobs being done    
     
     echo "<h1>Everyone's Jobs</h1>";
     echo "<dl>";
     foreach ($bookings as $booking) {
-    
-        echo "<dt>Request #{$booking['id']} </dt>";
-        echo "<dd>";
-        echo "{$booking['address']}   -   {$booking['name']}";
-        echo "  -  {$booking['date']}";
-        echo "  -  {$booking['description']}";
-        echo "</dd>";
-        echo" ";
-        echo" ";
+        if($booking['vet_id'] != NULL){    
+            echo "<dt>Request #{$booking['id']} </dt>";
+            echo "<dd>";
+            echo "{$booking['address']}   -   {$booking['name']}";
+            echo "  -  {$booking['date']}";
+            echo "  -  {$booking['description']}";
+            echo "  -  given vet id: {$booking['vet_id']}";
+            echo "</dd>";
+            echo" ";
+            echo" ";
+        }
     }
-    echo "</dl>";
+
+//displaying all the unsigned Jobs
+
+    echo "<h1>unsigned Jobs</h1>";
+
+    foreach ($bookings as $booking) {
+        if($booking['vet_id'] == NULL){    
+            echo "<dt>Request #{$booking['id']} </dt>";
+            echo "<dd>";
+            echo "{$booking['address']}   -   {$booking['name']}";
+            echo "  -  {$booking['date']}";
+            echo "  -  {$booking['description']}";
+            echo "  -  given vet id: {$booking['vet_id']}";
+            echo "</dd>";
+            echo" ";
+            echo" ";
+        }
+    }
+        echo "</dl>";
     
 
 
@@ -71,6 +91,9 @@ else{
         echo "</dd>";
         echo" ";
         echo" ";
+
+
+//the done button       
         ?>
         <button
         hx-put="/done/<?= $booking['id']  ?>"

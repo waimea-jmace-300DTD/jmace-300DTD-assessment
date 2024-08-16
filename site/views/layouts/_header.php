@@ -2,7 +2,7 @@
 
 <header id="main-header">
     
-    <a href="/"><?= SITE_NAME ?></a>
+    <a href="/"><img src="images/vetlifelogo.png" alt="The Vet Life logo"></a>
 
 
 

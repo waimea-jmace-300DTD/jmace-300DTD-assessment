@@ -12,16 +12,16 @@ $vets = $stmt->fetchAll();
 ?>
 
 <form hx-post="process-booking" id="form">
-    <label>name</label>
+    <label>Name</label>
     <input type="text" name="name" required>
     
-    <label>address</label>
+    <label>Address</label>
     <input type="text" name="address" required>
 
-    <label>description</label>
+    <label>Description</label>
     <input type="text" name="description">
 
-    <label>time and date</label>
+    <label>Time and Date</label>
     <input type="datetime-local" name="datetime" required>
     
     <label>Vet</label>
@@ -40,6 +40,6 @@ $vets = $stmt->fetchAll();
 ?>
     </select>
 
-    <input type="submit" value="submit">
+    <input type="submit" value="Submit">
     
 </form>

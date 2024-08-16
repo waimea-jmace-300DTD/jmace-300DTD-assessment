@@ -11,7 +11,7 @@ require_once 'lib/router.php';
 //-------------------------------------------------------------
 // Site Configuration
 const SITE_NAME  = 'VetLife';
-const SITE_OWNER = 'Vetlife';
+const SITE_OWNER = 'VetLife';
 
 
 //-------------------------------------------------------------

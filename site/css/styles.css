@@ -5,6 +5,11 @@
     --accent-color:      var(--pico-color-pink);
 
     --link-active-color: var(--accent-color);
+
+    --main-colour1:      #A79075; 
+    --main-colour2:      #473625; 
+
+
 }
 
 
@@ -16,6 +21,15 @@ body {
 
 
 /* HEADER ---------------------------------------- */
+
+
+
+header img{
+    max-block-size: 7rem;
+    
+    
+    
+    }
 
 #main-header {
     display: flex;
@@ -98,7 +112,6 @@ article {
 
 
 
-
 #menu-links li {
     width: 100%;                /* full width for bigger click target */
 }
@@ -128,7 +141,7 @@ article {
     padding: 1rem;
     list-style: none;
 
-    background-color: #369;
+    background-color:  var(--main-colour2);
     color: #fff;
 
     transition: all 300ms ease-out;
@@ -186,6 +199,15 @@ article {
     #main-nav.show::before {
         opacity: 0;                     /* make sure overlay is off */
     }
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -195,4 +217,5 @@ article {
     justify-content: center;
     align-items: center;
 }
+
 

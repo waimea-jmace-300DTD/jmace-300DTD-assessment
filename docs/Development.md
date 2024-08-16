@@ -86,3 +86,8 @@ Replace this text with brief notes describing what you worked on, any decisions 
 
 Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
 
+
+
+### video 
+
+https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmace_waimea_school_nz/EbfYN_5VJVJGksk0xHbI8pABWfdxu0t92KJUcAhEm9uJkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euXScW

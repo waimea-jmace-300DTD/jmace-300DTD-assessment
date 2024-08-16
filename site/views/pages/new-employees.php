@@ -12,13 +12,13 @@
     <label>Username</label>
     <input type="text" name="username" required>
 
-    <label>description</label>
+    <label>Description</label>
     <input type="text" name="description">
 
     <label>Password</label>
     <input type="password" name="pass" required>
 
-    <input type="submit" value="Sign Up">
+    <input type="submit" value="Make account">
     
 </form>
 
