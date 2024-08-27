@@ -74,7 +74,8 @@ the handing out of jobs
 ![Alt text](images/image6.png)
 > Replace this text with any user feedback / comments
 
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
+I made it so the manager can see the jobs to had out and give them out 
+the admin it jmace and pass is my school password
 
 ### DATE HERE
 

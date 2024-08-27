@@ -14,7 +14,22 @@
 
 
     </article>
-    
+
+ 
+    <img src="images/Screenshot 2024-08-27 120014.png" alt="BOSS in car" class = "fuckluke">
+
+
+</section>
+
+
+
+
+<section>
+
+    <img src="images/GettyImages-1319774380-c3da91f9259a47e0966007f8e10690ba.jpg" alt="cat"class = "fuckluke">
+
+
+
     <article>
 
         <h1>Some of the expertise our Vets offer are</h1>
@@ -30,6 +45,8 @@
         </ul>
 
     </article>
+
+
 
 </section>
 
