@@ -109,7 +109,7 @@ i will need to have certen resorses available too the admins only and make the p
 
 ### User Interface Design
 
-![Alt text](images/image.png)
+![Alt text](images/Screenshot2024-05-21122030.png)
 
 
 -------------------------------------------------
@@ -131,35 +131,13 @@ Place screenshots and notes here that show your *actual system UI* in action.
 
 ### Meeting the Needs of the Users
 
-Replace this text with a brief evaluation of how well you met the needs of your users. Look at what you initially wrote about who they are, what specific needs they have, etc. and discuss how well the system meets those needs.
+my main user is the vets of vet life so its mostly for them so it has ways of seeing you jobs you need to do 
 
 ### Meeting the System Requirements
 
-Replace this text with a brief evaluation of how well you met the requirements that you defined at the start of the project, etc. Look back at the list of features / functionality you initially set and discuss how well your system has implemented each one.
-
-### Review of IMPLICATION NAME HERE
-
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
-### Review of IMPLICATION NAME HERE
-
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
-### Review of IMPLICATION NAME HERE
-
-Replace this text with brief notes showing how the implication was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
-### Review of UX PRINCIPLE NAME HERE
-
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
-### Review of UX PRINCIPLE NAME HERE
-
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
-
-### Review of UX PRINCIPLE NAME HERE
-
-Replace this text with brief notes showing how the UX principle was addressed in the final outcome. Accompany the notes with screenshots / other media to illustrate specific features.
+my website needed to show the jobs of the vets and be able for people to book the jobs 
+![Alt text](<Screenshot 2024-08-30 125158.png>)
+as seen in teh photo the vets can do this 
 
 
 -------------------------------------------------

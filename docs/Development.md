@@ -59,7 +59,7 @@ in response to this I added a map on the 23/07/2024
 
 
 
-### DATE HERE
+### 27/7
 
 the booking of vets  
 
@@ -67,7 +67,7 @@ the booking of vets
 
 got the booking working 
 
-### DATE HERE
+### 2/8
 
 the handing out of jobs 
 
@@ -77,18 +77,10 @@ the handing out of jobs
 I made it so the manager can see the jobs to had out and give them out 
 the admin it jmace and pass is my school password
 
-### DATE HERE
-
-Replace this test with what you are working on
-
-Replace this text with brief notes describing what you worked on, any decisions you made, any changes to designs, etc. Add screenshots / links to other media to illustrate your notes where necessary.
-
-> Replace this text with any user feedback / comments
-
-Replace this text with notes describing how you acted upon the user feedback: made changes to design, etc.
-
 
 
 ### video 
 
-https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmace_waimea_school_nz/EbfYN_5VJVJGksk0xHbI8pABWfdxu0t92KJUcAhEm9uJkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euXScW
+[video ](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmace_waimea_school_nz/EbfYN_5VJVJGksk0xHbI8pABWfdxu0t92KJUcAhEm9uJkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euXScW)
+
+these video had me making logging in making a booking   
