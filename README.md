@@ -13,3 +13,8 @@ The following documents support this project:
 
 - [Design & Review](Design.md)
 - [Development & Testing](Development.md)
+
+
+password 
+admin - admin (ADMIN)
+test - test (NOT ADMIN)
