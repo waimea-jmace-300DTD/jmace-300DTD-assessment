@@ -78,9 +78,9 @@ I made it so the manager can see the jobs to had out and give them out
 the admin it jmace and pass is my school password
 
 
-
 ### video 
 
 [video ](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmace_waimea_school_nz/EbfYN_5VJVJGksk0xHbI8pABWfdxu0t92KJUcAhEm9uJkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euXScW)
 
-these video had me making logging in making a booking   
+these video had me making logging in making a booking 
+  

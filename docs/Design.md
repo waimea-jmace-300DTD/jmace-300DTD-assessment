@@ -83,9 +83,10 @@ I will need to consider that the people using my website may get confused if the
 
 ### useful
 
-is should be useful. it wont just be a website that has a few photos and some name of vets but has things that people want to use my website for when there's some thing wrong with there animals 
+it should be useful. it wont just be a website that has a few photos and some name of vets but has things that people want to use my website for when there's some thing wrong with there animals 
 
 it is important that when trying to make it useful i don't make it hard to use as if no mater how useful it is if all the people wanting to use it cant it will not be useful
+
 with that in mind i will need to consider the simplicity and the how much it has to offer the as if i don't if i don't make i simle yet useful website it will only be useful to a small minority of people   
 
 
@@ -96,7 +97,7 @@ that there will be a clear difference in what the boss of VetLife the workers an
 
 if the workers can change thing they may get rid of things they do not want to do or mess with other peoples time and if the customers can they might too 
 
-Replace this text with an explanation of what you will need to consider moving forward and how the project will be impacted by this principle.
+
 i will need to have certen resorses available too the admins only and make the pages check if the user is an admin so people don't just go to them ver the URL    
 
 
@@ -118,12 +119,16 @@ i will need to have certen resorses available too the admins only and make the p
 
 ### Database Structure
 
-Place a image here that shows the *actual database structure* that you implemented: tables, fields and relationships.
+this is the database I ended up with 
+
+![Alt text](<images/Screenshot 2024-09-20 132216.png>)
 
 ### User Interface Design
+### video 
 
-Place screenshots and notes here that show your *actual system UI* in action.
+[video ](https://mywaimeaschool-my.sharepoint.com/:v:/g/personal/jmace_waimea_school_nz/EbfYN_5VJVJGksk0xHbI8pABWfdxu0t92KJUcAhEm9uJkA?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=euXScW)
 
+these video had me making logging in making a booking 
 
 -------------------------------------------------
 
@@ -136,8 +141,28 @@ my main user is the vets of vet life so its mostly for them so it has ways of se
 ### Meeting the System Requirements
 
 my website needed to show the jobs of the vets and be able for people to book the jobs 
-![Alt text](<Screenshot 2024-08-30 125158.png>)
-as seen in teh photo the vets can do this 
+![Alt text](<images/Screenshot 2024-08-30 125158.png>)
+as seen in the photo the vets can do this 
 
 
 -------------------------------------------------
+
+## How I implemented the Relevant User Experience (UX) Principles
+
+
+### Consistency
+I said that i will use common colours and symbles so  
+in my finale system I keeped all the buttons in the same place no matter what page or device you are on, and tried too keep to common themes among website like using the "≡" in the button for the drop down menu and having it on the left side   ![Alt text](<images/Screenshot 2024-09-20 134102.png>)
+
+
+### Useful
+I said that it must have some use other than to show basic info so 
+in my finale system registered vets can login and see when and where their going to be and the boss has the power too give and take jobs. It is also good the common man as it has info about what the vets at VetLife do and info about where the vet center is and how to contact them it also shows the current vets and what they do in the VetLife community       
+
+
+### Hierarchy
+I said there will be a clear difference in what the boss of VetLife the workers.
+So in my finale system there was a clear Hierarchy going form the customers to the boss the higher up you are the more things you can do form just looking and booking to giving out and resaving jobs and unless you are the boss you cant change what you do or who your going with.     
+
+![Alt text](<images/Screenshot 2024-09-20 140535.png>)
+In the photo you can see that the boss can see everyone's jobs and give tham out
